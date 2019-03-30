@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+</head>
+<body class="bg-black-90">
+    <div class="mw5 mw7-ns center pa3 ph5-ns justify-center flex items-center">
+        <span class="h2 light-gray">
+            Search for tracks by artist: <input type="text" name="artist-name" class="h2 bn bg-light-gray br3 br--left-ns pl2">
+        </span>
+        <span class="white bg-light-blue w2 h2 flex justify-center items-center br3 br--right-ns" id="search-button">
+            <span class="fas fa-search"></span>
+        </span>
+    </div>
+    <audio controls class="mw5 mw7-ns center pa3 ph5-ns flex" src="" id="song-player"></audio>
+    <div id="search-results" class="mw8 justify-center center flex flex-wrap"></div>
+</body>
+</html>
